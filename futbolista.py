@@ -1,3 +1,6 @@
+from persona import Persona
+from deportista import Deportista
+
 class Futbolista(Persona, Deportista):
     _listaFutbolistas = []
 
